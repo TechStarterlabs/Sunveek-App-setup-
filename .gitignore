@@ -1,0 +1,40 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+SECRETS_FOR_TEAM.txt
+*credentials*
+*secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local backups & dumps (may contain live page/email data)
+_wp_backups/
+_ORIGINALS_BACKUP/
+_UPLOAD_REMAINING_4/
+_UPLOAD_REMAINING_4.zip
+_tmp_*.json
+*_result.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Large binary originals / bulk uploads (not needed for team toolkit)
+_tmp_uploaded_cert.jpg
+_UPLOAD_TO_SERVER/
+_UPLOAD_TO_SERVER.zip
+Website Images*/
+*.zip
+
+# Optional local notes (keep secrets out)
+SECRETS_FOR_TEAM.txt
+htaccess (1)
